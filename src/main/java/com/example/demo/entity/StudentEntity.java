@@ -26,7 +26,10 @@ public class StudentEntity {
         return this.email;
     }
     public void getCgpa(float cgpa){
-        this.cgpa=email;
+        this.cgpa=cgpa;
+    }
+    public float getCgpa() {
+        return this.cgpa;
     }
 
 
